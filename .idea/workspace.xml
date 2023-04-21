@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f40c8d8d-9e4e-47f8-832e-3690074b1c80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Thread1/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Thread1/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f40c8d8d-9e4e-47f8-832e-3690074b1c80" name="Changes" comment="thread1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Thread1/MyThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Thread1/MyThread3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Thread1/MyThread4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank_problem/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank_problem/People.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Thread1/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Thread1/Demo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +44,26 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/JAVA项目/java_basement_bottom",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bank_problem.Demo" />
+      <module name="DuoXianCheng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bank_problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Thread1.Demo1" />
       <module name="DuoXianCheng" />
@@ -59,8 +77,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyThread3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Thread1.MyThread3" />
+      <module name="DuoXianCheng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Thread1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThread4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Thread1.MyThread4" />
+      <module name="DuoXianCheng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Thread1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.MyThread4" />
+        <item itemvalue="Application.MyThread3" />
         <item itemvalue="Application.Demo1" />
       </list>
     </recent_temporary>
@@ -73,8 +120,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682063831754</updated>
-      <workItem from="1682063835026" duration="824000" />
+      <workItem from="1682063835026" duration="8431000" />
     </task>
+    <task id="LOCAL-00001" summary="thread1">
+      <created>1682064705468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682064705468</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,5 +145,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="thread1" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
