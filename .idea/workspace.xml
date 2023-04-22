@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f40c8d8d-9e4e-47f8-832e-3690074b1c80" name="Changes" comment="thread1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Thread1/MyThread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Thread1/MyThread3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Thread1/MyThread4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank_problem/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank_problem/People.java" afterDir="false" />
+    <list default="true" id="f40c8d8d-9e4e-47f8-832e-3690074b1c80" name="Changes" comment="synchronized &amp; Lock">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Thread1/CAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ThreadPool/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ThreadPool/demo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Thread1/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Thread1/Demo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.demo1">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bank_problem.Demo" />
       <module name="DuoXianCheng" />
@@ -103,8 +100,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ThreadPool.demo1" />
+      <module name="DuoXianCheng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ThreadPool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.demo1" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.MyThread4" />
         <item itemvalue="Application.MyThread3" />
@@ -120,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682063831754</updated>
-      <workItem from="1682063835026" duration="8431000" />
+      <workItem from="1682063835026" duration="11607000" />
     </task>
     <task id="LOCAL-00001" summary="thread1">
       <created>1682064705468</created>
@@ -129,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682064705468</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="synchronized &amp; Lock">
+      <created>1682082415488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682082415488</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +166,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="thread1" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread1" />
+    <MESSAGE value="synchronized &amp; Lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="synchronized &amp; Lock" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
